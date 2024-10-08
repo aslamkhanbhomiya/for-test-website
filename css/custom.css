@@ -1,0 +1,267 @@
+.center-col-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.choose-text {
+    padding: 14px 15px 10px;
+    text-align: center;
+ }
+ .make_haapy{
+    font-size:35px;
+     color:black
+}
+
+.live_life{
+    color:black; 
+    font-family:arial;
+}
+ .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+    margin-top: 30px;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+.well-sm{
+    margin-top: 30px;
+}
+.well-sm .text-input .form-control {
+
+    height: 45px;
+}
+.well-sm .btn-primary {
+    color: #fff;
+    background-color: #37a73e;
+    border-color: #37a73e;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.well-sm  .center-text{
+    text-align: center;
+}
+.marhgin-0{
+    margin-bottom: 0px !important;
+}
+#callbook {
+    background: green;
+    bottom: 0;
+  display: none;
+    left: 0;
+    position: fixed;
+    display: none;
+    right: 0;
+    z-index: 100;
+}
+#callbook ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+#callbook ul li {
+    border-bottom: 1px solid #fff;
+    background: red;
+ 
+    flex: 1 1 auto;
+    list-style: none;
+    text-align: center;
+}
+#callbook ul li a{
+    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#callbook ul li a svg{
+  width: 28px;
+  margin-right: 4px;
+  animation: pulsate 0.5s ease-out;
+  animation-iteration-count: infinite;
+  -webkit-animation: pulsate 0.5s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+#callbook ul li a span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+   
+}
+@keyframes pulsate {
+    0% {transform: scale(0.9, 0.9); opacity: 1;}
+    50% {transform: scale(1.2, 1.2); opacity: 1;}
+    100% {transform: scale(0.9, 0.9); opacity: 1;}
+}
+.tophead-section{
+	padding:0;
+	/* background:#002100; */
+}
+.tophead-section1{
+	padding: 10px 0px;
+}
+.tophead-mark{
+	padding: 0px;
+}
+.tophead-mark1{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px 0 0 0;
+    padding: 7px 7px;
+    padding-top: 12px;
+}
+.tophead-call{
+	padding:0px 10px;
+}
+.tophead-call1{
+	padding: 0px;
+}
+.top-icons{
+	padding: 0px 5px;
+}
+.top-icons1{
+	padding: 0px;
+}
+.top-icons1 ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+}
+.top-icons1 ul li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.top-icons1 li a{
+	margin: 0;
+	padding: 5px;
+	color: #ca0000;
+	text-decoration: none;
+}
+.top-icons1 li a i{
+	/* background:#002100; */
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	line-height:40px;
+	font-size: 20px;
+	text-align: center;
+}
+.top-icons1 li a:hover i{
+	color: #fff000;
+}
+.top-contact{
+	padding:10px 10px;
+}
+.top-contact1{
+	padding: 0px;
+    text-align: right;
+}
+.top-contact1 a{
+	    border-radius: 49px;
+    padding: 11px 7px 11px 19px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    /* background: #002100;
+    /* border: 1px solid #fff664; */
+    box-shadow: 0 0 0 2px #FFCE00; 
+}
+.top-contact1 a i{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #fff;
+    color: #002100;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 8px;
+}
+.header-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+.contact-header a img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+}
+.main {
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    margin-bottom: 38px;
+}
+@media (max-width: 1199px){
+    .main {
+        width: 100%;
+    }
+    }
+
+    @media (max-width: 991px){
+      
+        .header-custom {
+            flex-direction: column;
+        }
+        .contact-header a img {
+            margin-top: 15px;
+        }
+        .main {
+            margin-bottom: 0;
+        }
+        }
+
+@media (max-width: 767px){
+#callbook {
+    display: block;
+}
+.tophead-section1 {
+    padding: 0px 0px;
+}
+
+}
+@media (max-width: 575px){
+    .top-icons1 ul {
+        float: none;
+        }
+        .tophead-mark1 {
+            font-size: 17px;
+            padding: 7px 7px 0;
+           }
+    
+    }
